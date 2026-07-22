@@ -123,13 +123,15 @@ main.container {
 
 /* Publications list */
 
-.pub-jump {
+.pub-jump,
+.vita-jump {
   text-align: center;
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
 }
 
-.pub-jump a {
+.pub-jump a,
+.vita-jump a {
   margin: 0 0.35rem;
 }
 
@@ -283,6 +285,7 @@ main.container {
 
   .site-header nav,
   .vita-download,
+  .vita-jump,
   .site-footer {
     display: none;
   }
