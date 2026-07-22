@@ -59,11 +59,11 @@ josh@joshschiffman.org | joshschiffman.org
 
 27 peer-reviewed publications across journals, conferences, and workshops. Full list with links on the [Publications](pubs.html) page.
 
-1. Thalia Laing, Eduard Marin, Mark D. Ryan, Joshua Schiffman, Gaëtan Wattiau. Symbolon: Enabling Flexible Multi-device-based User Authentication. *2022 IEEE Conference on Dependable and Secure Computing (DSC)*, June 2022.
-2. Yuqiong Sun, Giuseppe Petracca, Trent Jaeger, Hayawardh Vijayakumar and Joshua Schiffman. CloudArmor: Protecting Cloud Commands from Compromised Cloud Services. *8th IEEE International Conference on Cloud Computing (IEEE CLOUD'15)*, June 2015.
-3. Joshua Schiffman, Yuqiong Sun, Hayawardh Vijayakumar, and Trent Jaeger. Cloud Verifier: Verifiable Auditing Service for IaaS Clouds. *2013 IEEE Ninth World Congress on Services (SERVICES '13)*, June 2013.
-4. Joshua Schiffman, Trent Jaeger, and Patrick McDaniel. Network-based Root of Trust for Installation. *IEEE Security & Privacy*, Volume 9, Issue 1, pp 40–48, Jan.–Feb. 2011.
-5. Joshua Schiffman, Thomas Moyer, Christopher Shal, Trent Jaeger, and Patrick McDaniel. Justifying Integrity Using a Virtual Machine Verifier. *ACSAC '09: 25th Annual Computer Security Applications Conference*, December 2009. Honolulu, HI. (19% acceptance rate)
+1. Thalia Laing, Eduard Marin, Mark D. Ryan, Joshua Schiffman, Gaëtan Wattiau. Symbolon: Enabling Flexible Multi-device-based User Authentication. *2022 IEEE Conference on Dependable and Secure Computing (DSC)*, June 2022. [[Link]](https://ieeexplore.ieee.org/document/9888854/)
+2. Yuqiong Sun, Giuseppe Petracca, Trent Jaeger, Hayawardh Vijayakumar and Joshua Schiffman. CloudArmor: Protecting Cloud Commands from Compromised Cloud Services. *8th IEEE International Conference on Cloud Computing (IEEE CLOUD'15)*, June 2015. [[Link]](https://ieeexplore.ieee.org/document/7214052/)
+3. Joshua Schiffman, Yuqiong Sun, Hayawardh Vijayakumar, and Trent Jaeger. Cloud Verifier: Verifiable Auditing Service for IaaS Clouds. *2013 IEEE Ninth World Congress on Services (SERVICES '13)*, June 2013. [[Link]](https://ieeexplore.ieee.org/document/6655704/)
+4. Joshua Schiffman, Trent Jaeger, and Patrick McDaniel. Network-based Root of Trust for Installation. *IEEE Security & Privacy*, Volume 9, Issue 1, pp 40–48, Jan.–Feb. 2011. [[Link]](https://ieeexplore.ieee.org/document/5705596/)
+5. Joshua Schiffman, Thomas Moyer, Christopher Shal, Trent Jaeger, and Patrick McDaniel. Justifying Integrity Using a Virtual Machine Verifier. *ACSAC '09: 25th Annual Computer Security Applications Conference*, December 2009. Honolulu, HI. (19% acceptance rate) [[Link]](https://ieeexplore.ieee.org/document/5380521)
 
 ## Patents
 
