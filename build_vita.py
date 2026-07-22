@@ -18,7 +18,7 @@ TEMPLATE = """<!DOCTYPE html>
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Joshua Schiffman's CV / Vita">
 <meta name="keywords" content="Joshua Schiffman CV Vita">
-<title>Joshua Schiffman, PhD - Vita</title>
+<title>Joshua Serratelli Schiffman, PhD</title>
 <link rel="stylesheet" href="style.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5VP9QW8KF"></script>
 <script>
@@ -32,7 +32,7 @@ TEMPLATE = """<!DOCTYPE html>
 
 <header class="site-header">
   <div class="container">
-    <h1>Joshua Serratelli Schiffman</h1>
+    <h1>Joshua Serratelli Schiffman, PhD</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="pubs.html">Publications</a>
