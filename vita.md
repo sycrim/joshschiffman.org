@@ -67,15 +67,7 @@ josh@joshschiffman.org | joshschiffman.org
 
 ## Patents
 
-1. Hewlett Packard Development Co LP: Joshua Serratelli Schiffman et al, "Authentication system." U.S. Patent US11144621B2 (October 12, 2021)
-2. Hewlett Packard Development Co LP: Joshua Serratelli Schiffman et al, "Managing entitlement." U.S. Patent Application US11146406B2 (October 12, 2021)
-3. Hewlett Packard Development Co LP: Joshua Serratelli Schiffman et al, "User equipment to capture identity information from rendering apparatuses." U.S. Patent Application US11137948B2 (October 5, 2021)
-4. Hewlett Packard Development Co LP: Joshua Serratelli Schiffman et al, "Establishing shared key data for wireless pairing." U.S. Patent US11057196B2 (July 6, 2021)
-5. Hewlett Packard Development Co LP: Joshua Serratelli Schiffman et al, "Distributed authentication." U.S. Patent Application US10771444B2 (September 8, 2020)
-6. Hewlett Packard Development Co LP: Joshua Serratelli Schiffman et al, "Content delivery network including mobile devices." U.S. Patent US10558412B2 (February 11, 2020)
-7. Advanced Micro Devices Inc.: Joshua Serratelli Schiffman et al, "Protecting state information for virtual machines." U.S. Patent US10152602B2 (December 11, 2018)
-8. Advanced Micro Devices Inc.: Joshua Serratelli Schiffman et al, "Method for privileged mode based secure input mechanism." U.S. Patent US9471799B2 (October 18, 2016)
-9. Samsung Electronics Co., Ltd.: Joshua Schiffman et al, "Securely Using Service Providers in Elastic Computing Systems and Environments." U.S. Patent Application 20110004916 (April 22, 2010)
+Co-inventor on 32 issued U.S. patents in computer and systems security. Full list with links on the [Patents](patents.html) page.
 
 ## Invited Talks
 

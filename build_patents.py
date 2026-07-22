@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Generate vita.html from vita.md.
+"""Generate patents.html from patents.md.
 
-Usage: pip install -r requirements.txt && python3 build_vita.py
+Usage: pip install -r requirements.txt && python3 build_patents.py
 """
 import markdown
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-SRC = ROOT / "vita.md"
-OUT = ROOT / "vita.html"
+SRC = ROOT / "patents.md"
+OUT = ROOT / "patents.html"
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Joshua Schiffman's CV / Vita">
-<meta name="keywords" content="Joshua Schiffman CV Vita">
+<meta name="description" content="Joshua Schiffman's issued U.S. patents in computer and systems security">
+<meta name="keywords" content="Joshua Schiffman Patents Security HP AMD Samsung">
 <title>Joshua Serratelli Schiffman, PhD</title>
 <link rel="stylesheet" href="style.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5VP9QW8KF"></script>
@@ -35,29 +35,23 @@ TEMPLATE = """<!DOCTYPE html>
     <nav>
       <a href="index.html">Home</a>
       <a href="pubs.html">Publications</a>
-      <a href="patents.html">Patents</a>
-      <a href="vita.html" class="active">Vita</a>
+      <a href="patents.html" class="active">Patents</a>
+      <a href="vita.html">Vita</a>
       <a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <h2 class="page-title">Vita</h2>
+  <h2 class="page-title">Patents</h2>
 
-  <p class="vita-download"><a href="vita.pdf" class="download-button">Download PDF</a></p>
-
-  <p class="vita-jump">
-    <a href="#education">Education</a> |
-    <a href="#employment">Employment</a> |
-    <a href="#selected-publications">Publications</a> |
-    <a href="#patents">Patents</a> |
-    <a href="#invited-talks">Invited Talks</a> |
-    <a href="#honors">Honors</a> |
-    <a href="#service">Service</a>
+  <p class="pub-jump">
+    <a href="#hp">HP Inc.</a> |
+    <a href="#amd">Advanced Micro Devices</a> |
+    <a href="#samsung">Samsung Electronics</a>
   </p>
 
-  <div class="vita-body">
+  <div class="pub-body">
 {body}
   </div>
 </main>
@@ -73,7 +67,7 @@ TEMPLATE = """<!DOCTYPE html>
 
 def main():
     text = SRC.read_text()
-    body = markdown.markdown(text, extensions=["extra", "sane_lists", "toc"])
+    body = markdown.markdown(text, extensions=["extra", "sane_lists"])
     OUT.write_text(TEMPLATE.format(body=body))
     print(f"Wrote {OUT}")
 
