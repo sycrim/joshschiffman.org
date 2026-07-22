@@ -45,7 +45,7 @@ TEMPLATE = """<!DOCTYPE html>
 <main class="container">
   <h2 class="page-title">Vita</h2>
 
-  <p class="vita-download"><a href="../vita.pdf" class="download-button">Download PDF</a></p>
+  <p class="vita-download"><a href="vita.pdf" class="download-button">Download PDF</a></p>
 
   <div class="vita-body">
 {body}
