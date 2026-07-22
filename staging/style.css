@@ -1,0 +1,174 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: #000077;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+
+.site-header {
+  background: #000077;
+  color: #ffffff;
+}
+
+.site-header .container {
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.site-header h1 {
+  margin: 0 0 0.6rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  font-size: 0.95rem;
+}
+
+.site-header nav a {
+  color: #cfd6ff;
+  text-decoration: none;
+}
+
+.site-header nav a.active,
+.site-header nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Main content */
+
+main.container {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.page-title {
+  background: #000077;
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin: 0 0 1.25rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.section-title {
+  background: #aaaadd;
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 2rem 0 0.75rem;
+  padding: 0.35rem 0.75rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.headshot {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.intro-text {
+  flex: 1 1 280px;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  color: #444;
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.quote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Publications list */
+
+.pub-jump {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-jump a {
+  margin: 0 0.35rem;
+}
+
+.pub-list {
+  padding-left: 1.25rem;
+}
+
+.pub-list li {
+  margin-bottom: 1rem;
+}
+
+/* Contact */
+
+.contact-block {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: #777;
+  font-size: 0.85rem;
+  border-top: 1px solid #eee;
+  margin-top: 2rem;
+}
+
+@media (max-width: 480px) {
+  .site-header h1 {
+    font-size: 1.15rem;
+  }
+
+  .page-title,
+  .section-title {
+    font-size: 0.95rem;
+  }
+
+  .headshot {
+    width: 140px;
+  }
+}
