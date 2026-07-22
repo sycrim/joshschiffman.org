@@ -18,7 +18,7 @@ TEMPLATE = """<!DOCTYPE html>
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Joshua Schiffman's CV / Vita">
 <meta name="keywords" content="Joshua Schiffman CV Vita">
-<title>Joshua Schiffman, PhD - Vita</title>
+<title>Joshua Serratelli Schiffman, PhD</title>
 <link rel="stylesheet" href="style.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5VP9QW8KF"></script>
 <script>
