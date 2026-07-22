@@ -142,11 +142,12 @@ main.container {
   margin: -0.75rem 0 1.5rem;
 }
 
-.pub-list {
+.pub-body ol,
+.pub-body ul {
   padding-left: 1.25rem;
 }
 
-.pub-list li {
+.pub-body li {
   margin-bottom: 1rem;
 }
 
