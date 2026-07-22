@@ -54,7 +54,7 @@
 
 24. Joshua Schiffman and David Kaplan. **The SMM Rootkit Revisited: Fun with USB**, *2nd International Workshop on Emerging Cyberthreats and Countermeasures (ECTCM '14)*, September 2014. \[[Link](https://ieeexplore.ieee.org/document/6980293/)\]
 
-25. Joshua Schiffman, Thomas Moyer, Hayawardh Vijayakumar, Trent Jaeger, Patrick McDaniel. **Seeding clouds with trust anchors**. *CCSW '10 Proceedings of the 2010 ACM workshop on Cloud computing security workshop, 2010.* *(14.41% acceptance rate)* \[[Link](https://dl.acm.org/doi/10.1145/1866835.1866843)\] \[[Slides](../presentations/ccsw10-presentation.pdf)\]
+25. Joshua Schiffman, Thomas Moyer, Hayawardh Vijayakumar, Trent Jaeger, Patrick McDaniel. **Seeding clouds with trust anchors**. *CCSW '10 Proceedings of the 2010 ACM workshop on Cloud computing security workshop, 2010.* *(14.41% acceptance rate)* \[[Link](https://dl.acm.org/doi/10.1145/1866835.1866843)\] \[[Slides](presentations/ccsw10-presentation.pdf)\]
 
 26. Xinwen Zhang, Joshua Schiffman, Simon Gibbs, Anugeetha Kunjithapatham, and Sangoh Jeong. **Securing Elastic Applications on Mobile Devices for Cloud Computing**, *1st ACM Cloud Computing Security Workshop*, November 2009. \[[Link](https://dl.acm.org/doi/10.1145/1655008.1655026)\] \[[Slides](http://crypto.cs.stonybrook.edu/ccsw09/slides/zsgkj.pdf)\]
 
