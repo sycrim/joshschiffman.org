@@ -32,7 +32,7 @@ TEMPLATE = """<!DOCTYPE html>
 
 <header class="site-header">
   <div class="container">
-    <h1>Joshua Serratelli Schiffman</h1>
+    <h1>Joshua Serratelli Schiffman, PhD</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="pubs.html">Publications</a>
