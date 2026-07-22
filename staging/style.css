@@ -135,6 +135,13 @@ main.container {
   margin: 0 0.35rem;
 }
 
+.pub-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin: -0.75rem 0 1.5rem;
+}
+
 .pub-list {
   padding-left: 1.25rem;
 }
