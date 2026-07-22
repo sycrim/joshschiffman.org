@@ -44,6 +44,7 @@ TEMPLATE = """<!DOCTYPE html>
     <nav>
       <a href="index.html">Home</a>
       <a href="pubs.html" class="active">Publications</a>
+      <a href="patents.html">Patents</a>
       <a href="vita.html">Vita</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -61,7 +62,7 @@ TEMPLATE = """<!DOCTYPE html>
     <a href="#techreports">Tech Reports</a>
   </p>
 
-  <p class="pub-note">Patents and invited talks are listed on the <a href="vita.html">Vita</a> page.</p>
+  <p class="pub-note">Patents are listed on the <a href="patents.html">Patents</a> page; invited talks are listed on the <a href="vita.html">Vita</a> page.</p>
 
   <div class="pub-body">
 {body}
