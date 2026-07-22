@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate staging/pubs.html from pubs.md, with "Cite" widgets from pubs_cites.py.
+"""Generate pubs.html from pubs.md, with "Cite" widgets from pubs_cites.py.
 
 Usage: pip install -r requirements.txt && python3 build_pubs.py
 
@@ -17,14 +17,13 @@ import pubs_cites
 
 ROOT = Path(__file__).parent
 SRC = ROOT / "pubs.md"
-OUT = ROOT / "staging" / "pubs.html"
+OUT = ROOT / "pubs.html"
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Joshua Schiffman's peer-reviewed publications in computer and systems security">
 <meta name="keywords" content="Joshua Schiffman Security Publications HP Trusted Computing">
 <title>Joshua Serratelli Schiffman, PhD</title>

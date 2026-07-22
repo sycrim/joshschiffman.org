@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate staging/vita.pdf by printing staging/vita.html to PDF.
+"""Generate vita.pdf by printing vita.html to PDF.
 
 Usage: python3 build_vita.py && python3 build_vita_pdf.py
 Requires: pip install playwright && playwright install chromium
@@ -11,8 +11,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).parent
-HTML = ROOT / "staging" / "vita.html"
-OUT = ROOT / "staging" / "vita.pdf"
+HTML = ROOT / "vita.html"
+OUT = ROOT / "vita.pdf"
 
 # Set PLAYWRIGHT_CHROMIUM_PATH to point at a specific Chromium binary
 # (e.g. a pre-installed one) instead of the one `playwright install` downloads.
@@ -21,7 +21,7 @@ CHROMIUM_PATH = os.environ.get("PLAYWRIGHT_CHROMIUM_PATH")
 
 def main():
     if not HTML.exists():
-        sys.exit("staging/vita.html not found - run build_vita.py first")
+        sys.exit("vita.html not found - run build_vita.py first")
 
     with sync_playwright() as p:
         launch_args = {"executable_path": CHROMIUM_PATH} if CHROMIUM_PATH else {}

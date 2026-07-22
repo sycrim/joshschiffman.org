@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate staging/vita.html from vita.md.
+"""Generate vita.html from vita.md.
 
 Usage: pip install -r requirements.txt && python3 build_vita.py
 """
@@ -8,14 +8,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 SRC = ROOT / "vita.md"
-OUT = ROOT / "staging" / "vita.html"
+OUT = ROOT / "vita.html"
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Joshua Schiffman's CV / Vita">
 <meta name="keywords" content="Joshua Schiffman CV Vita">
 <title>Joshua Serratelli Schiffman, PhD</title>
