@@ -230,3 +230,53 @@ main.container {
     width: 140px;
   }
 }
+
+@media print {
+  @page {
+    margin: 0.6in;
+  }
+
+  body {
+    color: #000;
+  }
+
+  .site-header {
+    background: none;
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+
+  .site-header h1 {
+    color: #000;
+  }
+
+  .site-header nav,
+  .vita-download,
+  .site-footer {
+    display: none;
+  }
+
+  .vita-body h2 {
+    background: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 0.1rem 0;
+    margin-top: 1.25rem;
+  }
+
+  .vita-body h2:first-child {
+    margin-top: 0;
+  }
+
+  .vita-body h3 {
+    color: #000;
+  }
+
+  a {
+    color: #000;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
