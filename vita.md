@@ -3,18 +3,18 @@ josh@joshschiffman.org | joshschiffman.org
 
 ## Education
 
-**Pennsylvania State University**, University Park, PA — *August 2012*
-Ph.D., Computer Science and Engineering
-Thesis: *Practical System Integrity Verification in Cloud Computing Environments*
-Advisor: Trent Jaeger
+**Pennsylvania State University**, University Park, PA — Ph.D., Computer Science and Engineering *(August 2012)*
 
-**Pennsylvania State University**, University Park, PA — *May 2009*
-M.S., Computer Science and Engineering
-Advisor: Trent Jaeger
+- Thesis: *Practical System Integrity Verification in Cloud Computing Environments*
+- Advisor: Trent Jaeger
 
-**Pennsylvania State University**, University Park, PA — *May 2006*
-B.S., Computer Science and Engineering with Honors and High Distinction
-Minors in Mathematics and Japanese Language
+**Pennsylvania State University**, University Park, PA — M.S., Computer Science and Engineering *(May 2009)*
+
+- Advisor: Trent Jaeger
+
+**Pennsylvania State University**, University Park, PA — B.S., Computer Science and Engineering with Honors and High Distinction *(May 2006)*
+
+- Minors in Mathematics and Japanese Language
 
 ## Employment
 
@@ -55,45 +55,15 @@ Minors in Mathematics and Japanese Language
 
 - Developed web application prototypes for the Coast Guard's Deepwater program. Improved corporate web application for internal requisitions. Automated data entry for the Pennsylvania State Police ArcGIS services.
 
-## Publications
+## Selected Publications
 
-For full details, see the [Publications](pubs.html) page.
-
-### Journals
-
-1. T. Moyer, K. Butler, J. Schiffman, P. McDaniel, and T. Jaeger. Scalable Web Content Attestation. *IEEE Transactions on Computers*, 17, March 2011.
-2. Divya Muthukumaran, Joshua Schiffman, Mohamed Hassan, Anuj Sawani, Vikhyath Rao, Trent Jaeger. Protecting the Integrity of Trusted Applications in Mobile Phone Systems. *Security and Communication Networks*, Volume 4, Issue 6, pp 633–650, June 2011.
-3. Joshua Schiffman, Trent Jaeger, and Patrick McDaniel. Network-based Root of Trust for Installation. *IEEE Security & Privacy*, Volume 9, Issue 1, pp 40–48, Jan.–Feb. 2011.
-4. Trent Jaeger and Joshua Schiffman. Outlook: Cloudy with a Chance of Security Challenges and Improvements. *IEEE Security & Privacy*, Volume 8, Issue 1, pp 77–80, Jan.–Feb. 2010.
-5. Lee, K.C.K., Schiffman J., Zheng, B., Lee, W.C., Leong, H.V. Round-Eye: A system for tracking nearest surrounders in moving object environments. *Journal of Systems and Software*, Volume 80, pp 2063–2076, 2007.
-
-### Conferences
+27 peer-reviewed publications across journals, conferences, and workshops. Full list with links on the [Publications](pubs.html) page.
 
 1. Thalia Laing, Eduard Marin, Mark D. Ryan, Joshua Schiffman, Gaëtan Wattiau. Symbolon: Enabling Flexible Multi-device-based User Authentication. *2022 IEEE Conference on Dependable and Secure Computing (DSC)*, June 2022.
 2. Yuqiong Sun, Giuseppe Petracca, Trent Jaeger, Hayawardh Vijayakumar and Joshua Schiffman. CloudArmor: Protecting Cloud Commands from Compromised Cloud Services. *8th IEEE International Conference on Cloud Computing (IEEE CLOUD'15)*, June 2015.
 3. Joshua Schiffman, Yuqiong Sun, Hayawardh Vijayakumar, and Trent Jaeger. Cloud Verifier: Verifiable Auditing Service for IaaS Clouds. *2013 IEEE Ninth World Congress on Services (SERVICES '13)*, June 2013.
-4. Hayawardh Vijayakumar, Joshua Schiffman, and Trent Jaeger. Process Firewalls: Enforcing Safe Resource Access with Attack-Specific Invariants. *8th ACM European Conference on Computer Systems*, April 2013.
-5. J. Lorch, J. Mickens, B. Parno, M. Raykova, J. Schiffman. Toward Practical Private Access to Data Centers via Parallel ORAM. *11th USENIX Conference on File and Storage Technologies*, February 2013.
-6. Hayawardh Vijayakumar, Josh Schiffman, and Trent Jaeger. STING: Finding Name Resolution Vulnerabilities in Programs. *21st USENIX Security Symposium (USENIX Security '12)*, August 2012. (19% acceptance rate)
-7. Joshua Schiffman, Hayawardh Vijayakumar, Trent Jaeger. Verifying System Integrity by Proxy. *5th International Conference on Trust and Trustworthy Computing*, June 2012.
-8. H. Vijayakumar, G. Jakka, S. Rueda, J. Schiffman, and T. Jaeger. Integrity Walls: Finding Attack Surfaces from Mandatory Access Control Policies. *7th ACM Symposium on Information, Computer, and Communications Security (AsiaCCS)*, 2012. (22% acceptance rate)
-9. Hayawardh Vijayakumar, Joshua Schiffman, and Trent Jaeger. A Rose by Any Other Name or an Insane Root? Adventures in Namespace Resolution. *7th European Conference on Computer Network Defense*, September 2010. (32% acceptance rate)
-10. Patrick Traynor, Joshua Schiffman, Thomas La Porta, Patrick McDaniel, Abhrajit Ghosh, and Farooq Anjum. Constructing Secure Localization Systems with Adjustable Granularity. *IEEE Global Communications Conference (GLOBECOM)*, December 2010. Miami, FL. (35% acceptance rate)
-11. Joshua Schiffman, Xinwen Zhang and Simon Gibbs. DAuth: Fine-grained Authorization Delegation for Distributed Web Application Consumers. *POLICY '10: 2010 IEEE International Symposium on Policies for Distributed Systems and Networks*, July 2010. Washington, DC. (19% acceptance rate)
-12. Sandra Rueda, Boniface Hicks, Dave King, Thomas Moyer, Joshua Schiffman, Yogesh Sreenivasan, Trent Jaeger, and Patrick McDaniel. An Architecture for Enforcing End-to-End Access Control Over Web Applications. *SACMAT '10: 15th ACM Symposium on Access Control Models and Technologies*, June 2010. Pittsburgh, PA. (24% acceptance rate)
-13. Joshua Schiffman, Thomas Moyer, Christopher Shal, Trent Jaeger, and Patrick McDaniel. Justifying Integrity Using a Virtual Machine Verifier. *ACSAC '09: 25th Annual Computer Security Applications Conference*, December 2009. Honolulu, HI. (19% acceptance rate)
-14. Thomas Moyer, Kevin Butler, Joshua Schiffman, Patrick McDaniel, and Trent Jaeger. Scalable Web Content Attestation. *ACSAC '09: 25th Annual Computer Security Applications Conference*, December 2009. Honolulu, HI. (19% acceptance rate)
-15. Ken C. K. Lee, Josh Schiffman, Baihua Zheng, Wang-chien Lee. Valid Scope Computation for Location-Dependent Spatial Query in Mobile Broadcast Environments. *17th ACM Conference on Information and Knowledge Management*, October 2008. (17% acceptance rate)
-16. Divya Muthukumaran, Anuj Sawani, Joshua Schiffman, Brian M. Jung, Trent Jaeger. Measuring Integrity on Mobile Phone Systems. *SACMAT '08: 13th ACM Symposium on Access Control Models and Technologies*, June 2008. (25% acceptance rate)
-17. Luke St.Clair, Joshua Schiffman, Trent Jaeger, and Patrick McDaniel. Establishing and Sustaining System Integrity via Root of Trust Installation. *ACSAC '07: 23rd Annual Computer Security Applications Conference*, December 2007. (22% acceptance rate)
-18. Ken C. K. Lee, Josh Schiffman, Baihua Zheng, Wang-Chien Lee and Hong Va Leong. Tracking Nearest Surrounders in Moving Object Environments. *IEEE International Conference on Pervasive Services*, 2006.
-
-### Workshops
-
-1. Joshua Schiffman and David Kaplan. The SMM Rootkit Revisited: Fun with USB. *2nd International Workshop on Emerging Cyberthreats and Countermeasures (ECTCM '14)*, September 2014.
-2. Joshua Schiffman, Thomas Moyer, Hayawardh Vijayakumar, Trent Jaeger, and Patrick McDaniel. Seeding Clouds with Trust Anchors. *2nd ACM Cloud Computing Security Workshop*, October 2010. Chicago, IL.
-3. Xinwen Zhang, Joshua Schiffman, Simon Gibbs, Anugeetha Kunjithapatham, and Sangoh Jeong. Securing Elastic Applications on Mobile Devices for Cloud Computing. *1st ACM Cloud Computing Security Workshop*, November 2009. Chicago, IL.
-4. William Enck, Sandra Rueda, Yogesh Sreenivasan, Joshua Schiffman, Luke St. Clair, Trent Jaeger, and Patrick McDaniel. Protecting Users from 'Themselves'. *1st ACM Computer Security Architectures Workshop*, November 2007. Alexandria, VA.
+4. Joshua Schiffman, Trent Jaeger, and Patrick McDaniel. Network-based Root of Trust for Installation. *IEEE Security & Privacy*, Volume 9, Issue 1, pp 40–48, Jan.–Feb. 2011.
+5. Joshua Schiffman, Thomas Moyer, Christopher Shal, Trent Jaeger, and Patrick McDaniel. Justifying Integrity Using a Virtual Machine Verifier. *ACSAC '09: 25th Annual Computer Security Applications Conference*, December 2009. Honolulu, HI. (19% acceptance rate)
 
 ## Patents
 

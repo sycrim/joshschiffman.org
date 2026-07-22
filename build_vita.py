@@ -47,6 +47,16 @@ TEMPLATE = """<!DOCTYPE html>
 
   <p class="vita-download"><a href="vita.pdf" class="download-button">Download PDF</a></p>
 
+  <p class="vita-jump">
+    <a href="#education">Education</a> |
+    <a href="#employment">Employment</a> |
+    <a href="#selected-publications">Publications</a> |
+    <a href="#patents">Patents</a> |
+    <a href="#invited-talks">Invited Talks</a> |
+    <a href="#honors">Honors</a> |
+    <a href="#service">Service</a>
+  </p>
+
   <div class="vita-body">
 {body}
   </div>
@@ -63,7 +73,7 @@ TEMPLATE = """<!DOCTYPE html>
 
 def main():
     text = SRC.read_text()
-    body = markdown.markdown(text, extensions=["extra", "sane_lists"])
+    body = markdown.markdown(text, extensions=["extra", "sane_lists", "toc"])
     OUT.write_text(TEMPLATE.format(body=body))
     print(f"Wrote {OUT}")
 
